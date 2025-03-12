@@ -9,21 +9,34 @@ Key Features:
 Modular Design: 
 Includes blocks for propagate/generate signal computation, carry look-ahead logic, and sum generation.
 
-Synchronous Operation: Ensures inputs are latched before the rising clock edge, with outputs computed and available at the next rising clock edge.
+Synchronous Operation:
+Ensures inputs are latched before the rising clock edge, with outputs computed and available at the next rising clock edge.
+
 High-Speed Performance: Reduces carry propagation delays, enabling faster binary addition.
+
 Power Efficiency: Optimized design for low power consumption while maintaining accuracy.
 Prerequisites
+
 Simulation Tools: NGSPICE, MAGIC Layout, Verilog simulation software like ModelSim, Xilinx Vivado, or Synopsys VCS.
+
 Hardware Description Language: Verilog HDL is used for module design.
+
 Clock Input: Ensure the clock input and input bits adhere to the synchronous timing scheme.
 Verifying Results
+
 Verify waveforms in your simulation tool to confirm correct functionality.
+
 Check that the outputs are computed at the next rising clock edge for given inputs.
+
 Design Details
 Modular Components:
+
 Propagate/Generate Block: Computes propagate (P) and generate (G) signals for each bit.
+
 Carry Logic Block: Determines carry bits using P and G signals, reducing the carry propagation delay.
+
 Sum Block: Computes the sum bits using the carry and input signals.
+
 Keywords
 Flip-Flop Buses: To latch inputs and outputs.
 Propagate/Generate Block: For signal computation.
