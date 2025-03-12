@@ -1,0 +1,87 @@
+magic
+tech scmos
+timestamp 1731945508
+<< metal1 >>
+rect -30 328 32 333
+rect -30 -51 -25 328
+rect 275 275 308 280
+rect -9 121 1 125
+rect -8 0 3 4
+rect -30 -56 46 -51
+rect 78 -192 84 -73
+rect 280 -110 305 -104
+rect -29 -220 57 -212
+rect -29 -423 -21 -220
+rect -5 -263 6 -259
+rect 0 -384 8 -380
+rect -29 -429 42 -423
+rect -29 -782 -22 -429
+rect 85 -564 90 -448
+rect 286 -480 304 -476
+rect 4 -635 15 -631
+rect 7 -756 14 -752
+rect -29 -783 36 -782
+rect -29 -787 47 -783
+rect 88 -898 93 -818
+rect 280 -840 302 -835
+rect -7 -994 6 -990
+rect -3 -1115 8 -1111
+<< m2contact >>
+rect 78 -73 84 -68
+rect 78 -198 84 -192
+rect 85 -448 90 -443
+rect 85 -570 90 -564
+rect 88 -818 93 -813
+rect 88 -903 93 -898
+<< metal2 >>
+rect 78 -27 84 94
+rect 295 52 304 57
+rect -81 -34 84 -27
+rect 78 -68 84 -34
+rect 61 -194 78 -192
+rect 84 -194 194 -192
+rect 85 -443 90 -293
+rect 300 -332 308 -327
+rect 67 -566 85 -564
+rect 90 -566 200 -564
+rect 88 -813 93 -664
+rect 306 -704 312 -699
+rect 79 -903 88 -898
+rect 79 -925 85 -903
+rect 300 -1063 310 -1058
+use pg  pg_3
+timestamp 1731942372
+transform 1 0 119 0 1 -929
+box -113 -186 181 159
+use pg  pg_2
+timestamp 1731942372
+transform 1 0 125 0 1 -570
+box -113 -186 181 159
+use pg  pg_1
+timestamp 1731942372
+transform 1 0 119 0 1 -198
+box -113 -186 181 159
+use pg  pg_0
+timestamp 1731942372
+transform 1 0 114 0 1 186
+box -113 -186 181 159
+<< labels >>
+rlabel metal2 -52 -30 -51 -30 1 gnd
+rlabel metal1 -28 24 -27 24 1 vdd
+rlabel metal1 3 -382 3 -382 1 a2
+rlabel metal1 -3 -262 -3 -262 1 b2
+rlabel metal1 -2 2 -2 2 1 a1
+rlabel metal1 -5 123 -5 123 1 b1
+rlabel metal1 300 276 300 276 1 g1
+rlabel metal2 301 53 301 53 1 p1
+rlabel metal1 292 -107 292 -107 1 g2
+rlabel metal2 304 -330 304 -330 7 p2
+rlabel metal1 11 -754 11 -754 1 a3
+rlabel metal1 7 -634 7 -634 1 b3
+rlabel metal2 309 -702 309 -702 7 p3
+rlabel metal1 293 -479 293 -479 1 g3
+rlabel metal1 1 -993 1 -993 1 b4
+rlabel metal1 5 -1113 5 -1113 1 a4
+rlabel metal2 302 -1060 302 -1060 1 p4
+rlabel metal1 295 -838 295 -838 1 g4
+<< end >>

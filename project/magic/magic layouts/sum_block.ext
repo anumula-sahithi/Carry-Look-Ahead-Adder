@@ -1,0 +1,53 @@
+timestamp 1731961830
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use copyxor copyxor_3 1 0 41 0 1 -440
+use copyxor copyxor_2 1 0 40 0 1 -258
+use copyxor copyxor_1 1 0 39 0 1 -82
+use copyxor copyxor_0 1 0 43 0 1 87
+node "s4" 0 153.085 187 -487 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 28 0 0 0 0 0 0 0 0
+node "s3" 0 153.085 186 -305 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 28 0 0 0 0 0 0 0 0
+node "s2" 0 119.457 185 -129 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22 0 0 0 0 0 0 0 0
+node "s1" 0 141.876 189 40 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 26 0 0 0 0 0 0 0 0
+node "a4" 0 53.022 154 -519 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 34 0 0 0 0 0 0 0 0 0 0
+node "b4" 0 50.4948 -15 -491 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 34 0 0 0 0 0 0 0 0 0 0
+node "a3" 0 37.4244 150 -334 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0 0 0 0 0 0 0 0 0
+node "b3" 0 50.4948 12 -321 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 34 0 0 0 0 0 0 0 0 0 0
+node "a2" 0 37.4244 162 -158 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0 0 0 0 0 0 0 0 0
+node "b2" 0 50.4948 9 -146 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 34 0 0 0 0 0 0 0 0 0 0
+node "a1" 0 37.4244 155 11 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0 0 0 0 0 0 0 0 0
+node "b1" 0 43.2192 12 28 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "gnd" 12 7468.41 18 -90 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120 88 3365 1356 0 0 0 0 0 0 0 0
+node "vdd" 12 2650.11 -34 -374 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3682 1484 0 0 0 0 0 0 0 0 0 0
+cap "gnd" "vdd" 394.349
+cap "b4" "copyxor_3/inverterl_0/gnd" 96.714
+subcap "b3" -58.0764
+subcap "a3" -33.288
+cap "copyxor_2/b" "copyxor_2/inverterl_0/gnd" 96.714
+subcap "gnd" -5984.9
+cap "copyxor_1/b" "copyxor_1/inverterl_0/gnd" 96.714
+subcap "s2" -13.8132
+cap "copyxor_0/b" "copyxor_0/inverterl_0/gnd" 96.714
+merge "copyxor_3/a" "a4" -10.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0
+merge "copyxor_0/inverterl_0/gnd" "copyxor_1/inverterl_0/gnd" -7345.23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -63 -88 -2057 -1352 0 0 0 0 0 0 0 0
+merge "copyxor_1/inverterl_0/gnd" "copyxor_2/inverterl_0/gnd"
+merge "copyxor_2/inverterl_0/gnd" "copyxor_3/inverterl_0/gnd"
+merge "copyxor_3/inverterl_0/gnd" "gnd"
+merge "copyxor_3/b" "b4" -379.565 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -472 -230 0 0 0 0 0 0 0 0 0 0
+merge "copyxor_2/s" "s3" -153.085 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -45 -28 0 0 0 0 0 0 0 0
+merge "copyxor_1/a" "a2" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "copyxor_0/s" "s1" -141.876 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0
+merge "copyxor_1/b" "b2" -50.4948 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -52 -34 0 0 0 0 0 0 0 0 0 0
+merge "copyxor_0/inverterl_0/vdd" "copyxor_1/inverterl_0/vdd" -224.398 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -298 -130 0 0 0 0 0 0 0 0 0 0
+merge "copyxor_1/inverterl_0/vdd" "copyxor_2/inverterl_0/vdd"
+merge "copyxor_2/inverterl_0/vdd" "copyxor_3/inverterl_0/vdd"
+merge "copyxor_3/inverterl_0/vdd" "vdd"
+merge "copyxor_1/s" "s2" -191.011 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -57 -37 0 0 0 0 0 0 0 0
+merge "copyxor_3/s" "s4" -153.085 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -45 -28 0 0 0 0 0 0 0 0
+merge "copyxor_2/a" "a3" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "copyxor_0/b" "b1" -43.2192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -28 0 0 0 0 0 0 0 0 0 0
+merge "copyxor_2/b" "b3" -11.2836 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0 0 0 0 0 0 0
+merge "copyxor_0/a" "a1" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0

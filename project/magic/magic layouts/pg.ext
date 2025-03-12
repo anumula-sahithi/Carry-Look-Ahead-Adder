@@ -1,0 +1,35 @@
+timestamp 1731942372
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use and and_0 1 0 37 0 1 62
+use copyxor copyxor_0 1 0 35 0 1 -87
+node "gnd" 5 3276.85 14 -95 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 1547 604 0 0 0 0 0 0 0 0
+node "a1" 16 5907.35 -111 -186 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1218 606 1678 936 0 0 0 0 0 0 0 0
+node "b1" 7 3535.25 -113 -65 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 450 240 1455 592 0 0 0 0 0 0 0 0
+node "vdd" 4 2261.06 -83 -22 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2736 682 310 134 0 0 0 0 0 0 0 0
+cap "b1" "a1" 85.4352
+cap "gnd" "vdd" 167.983
+cap "b1" "vdd" 166.185
+cap "a1" "vdd" 140.031
+cap "b1" "gnd" 119.272
+subcap "gnd" -2771.27
+cap "copyxor_0/b" "copyxor_0/gnd" 96.714
+subcap "vdd" -1796.46
+subcap "gnd" -3390.95
+cap "and_0/b" "and_0/b_bar" 96.714
+cap "a1" "and_0/b" 89.6235
+cap "a1" "and_0/b_bar" 74.1564
+cap "and_0/inv_0/gnd" "a1" 74.1564
+cap "and_0/inv_0/vdd" "and_0/b_bar" 96.714
+merge "and_0/inv_0/vdd" "copyxor_0/vdd" -469.623 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -475 -229 45 0 0 0 0 0 0 0 0 0
+merge "copyxor_0/vdd" "vdd"
+merge "and_0/a" "copyxor_0/a" -2824.31 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -22 -863 -530 0 0 0 0 0 0 0 0
+merge "copyxor_0/a" "a1"
+merge "and_0/b" "copyxor_0/b" -2011.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -418 -228 -715 -301 0 0 0 0 0 0 0 0
+merge "copyxor_0/b" "b1"
+merge "copyxor_0/inverterl_0/gnd" "and_0/gnd" -2712.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -83 -20 -1039 -483 0 0 0 0 0 0 0 0
+merge "and_0/gnd" "copyxor_0/gnd"
+merge "copyxor_0/gnd" "gnd"

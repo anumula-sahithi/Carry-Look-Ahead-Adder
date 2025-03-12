@@ -1,0 +1,47 @@
+magic
+tech scmos
+timestamp 1731942372
+<< metal1 >>
+rect -83 146 -73 147
+rect -83 141 -13 146
+rect -83 -14 -73 141
+rect 101 80 106 88
+rect -83 -22 14 -14
+rect -113 -65 -108 -61
+rect -103 -65 -8 -61
+rect -111 -186 -96 -182
+rect 136 -182 141 -154
+rect -91 -186 141 -182
+<< m2contact >>
+rect -13 141 -8 146
+rect 44 141 49 146
+rect 19 94 24 99
+rect 101 75 106 80
+rect -108 -65 -103 -60
+rect 14 -95 19 -90
+rect -96 -186 -91 -181
+<< metal2 >>
+rect -8 141 44 146
+rect -108 94 19 99
+rect -108 -60 -103 94
+rect 95 78 101 80
+rect -95 75 101 78
+rect -95 -177 -91 75
+rect -58 0 75 4
+rect -58 -90 -51 0
+rect -58 -95 14 -90
+rect -96 -181 -91 -177
+use copyxor  copyxor_0
+timestamp 1731941149
+transform 1 0 35 0 1 -87
+box -43 -87 146 73
+use and  and_0
+timestamp 1731852900
+transform 1 0 37 0 1 62
+box -37 -62 124 97
+<< labels >>
+rlabel metal2 -16 -91 -16 -91 1 gnd
+rlabel metal1 -78 77 -78 77 3 vdd
+rlabel metal1 -110 -63 -110 -63 3 b1
+rlabel metal1 -100 -185 -100 -185 1 a1
+<< end >>

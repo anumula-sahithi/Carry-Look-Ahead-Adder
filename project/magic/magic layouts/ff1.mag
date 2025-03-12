@@ -1,0 +1,110 @@
+magic
+tech scmos
+timestamp 1732052795
+<< metal1 >>
+rect -112 105 -16 112
+rect -112 -19 -105 105
+rect -78 54 -22 56
+rect -78 52 -16 54
+rect -78 51 -7 52
+rect -78 50 -16 51
+rect -78 49 -22 50
+rect -112 -26 -31 -19
+rect -112 -156 -105 -26
+rect -78 -79 -42 -75
+rect -78 -80 -26 -79
+rect -112 -163 -31 -156
+rect -112 -299 -105 -163
+rect -78 -217 -42 -211
+rect -112 -306 -37 -299
+rect -112 -439 -105 -306
+rect -78 -360 -45 -354
+rect -112 -446 -37 -439
+rect -112 -587 -105 -446
+rect -78 -499 -49 -494
+rect -112 -594 -37 -587
+rect -112 -720 -105 -594
+rect -78 -648 -48 -643
+rect -112 -727 -41 -720
+rect -112 -865 -105 -727
+rect -83 -780 -46 -775
+rect -112 -871 -27 -865
+rect -78 -925 -46 -920
+<< m2contact >>
+rect -83 49 -78 56
+rect -16 1 -10 8
+rect -83 -80 -78 -75
+rect -34 -130 -28 -123
+rect -83 -147 -78 -142
+rect -83 -217 -78 -211
+rect -34 -267 -28 -260
+rect -83 -360 -78 -354
+rect -38 -410 -32 -403
+rect -83 -499 -78 -494
+rect -41 -550 -35 -543
+rect -83 -648 -78 -643
+rect -41 -698 -35 -691
+rect -41 -831 -35 -824
+rect -83 -925 -78 -920
+rect -40 -976 -33 -969
+<< metal2 >>
+rect -83 -75 -78 49
+rect -83 -142 -78 -80
+rect -83 -211 -78 -147
+rect -83 -354 -78 -217
+rect -83 -494 -78 -360
+rect -83 -643 -78 -499
+rect -83 -920 -78 -648
+rect -83 -926 -78 -925
+rect -66 1 -16 8
+rect -66 -123 -59 1
+rect -66 -130 -34 -123
+rect -66 -260 -59 -130
+rect -66 -267 -34 -260
+rect -66 -403 -59 -267
+rect -66 -410 -38 -403
+rect -66 -543 -59 -410
+rect -66 -550 -41 -543
+rect -66 -691 -59 -550
+rect -66 -698 -41 -691
+rect -66 -824 -59 -698
+rect -66 -831 -41 -824
+rect -66 -969 -59 -831
+rect -66 -976 -40 -969
+use layff  layff_7
+timestamp 1731962275
+transform 1 0 -23 0 1 -897
+box -30 -79 223 32
+use layff  layff_6
+timestamp 1731962275
+transform 1 0 -24 0 1 -752
+box -30 -79 223 32
+use layff  layff_5
+timestamp 1731962275
+transform 1 0 -24 0 1 -619
+box -30 -79 223 32
+use layff  layff_4
+timestamp 1731962275
+transform 1 0 -24 0 1 -471
+box -30 -79 223 32
+use layff  layff_3
+timestamp 1731962275
+transform 1 0 -21 0 1 -331
+box -30 -79 223 32
+use layff  layff_2
+timestamp 1731962275
+transform 1 0 -17 0 1 -188
+box -30 -79 223 32
+use layff  layff_1
+timestamp 1731962275
+transform 1 0 -17 0 1 -51
+box -30 -79 223 32
+use layff  layff_0
+timestamp 1731962275
+transform 1 0 1 0 1 80
+box -30 -79 223 32
+<< labels >>
+rlabel metal1 -106 108 -106 108 5 vdd
+rlabel metal2 -62 1 -62 1 1 gnd
+rlabel metal1 -72 53 -72 53 1 clk
+<< end >>

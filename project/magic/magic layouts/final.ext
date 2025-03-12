@@ -1,0 +1,302 @@
+timestamp 1732063698
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use ff2 ff2_0 1 0 1973 0 1 920
+use sum_block sum_block_0 1 0 1309 0 1 856
+use pg_block pg_block_0 1 0 -199 0 1 1038
+use carry_block carry_block_0 1 0 668 0 1 1128
+use ff1 ff1_0 1 0 -710 0 1 1068
+node "p4" 0 332.745 111 -25 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 60 0 0 0 0 0 0 0 0
+node "p1" 5 3841.01 105 1090 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1690 686 0 0 0 0 0 0 0 0
+node "clk" 0 119.457 -797 1101 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22 0 0 0 0 0 0 0 0
+node "m1_1461_n28#" 0 19.8228 1461 -28 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 16 0 0 0 0 0 0 0 0 0 0
+node "gnd" 9 2020.36 51 109 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2805 1132 0 0 0 0 0 0 0 0 0 0
+node "p4" 1 221.446 1463 280 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 295 128 0 0 0 0 0 0 0 0 0 0
+node "c4" 1 138.72 2273 373 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 88 0 0 0 0 0 0 0 0 0 0
+node "g4" 0 99.6075 103 198 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 125 60 0 0 0 0 0 0 0 0 0 0
+node "p4" 0 38.688 484 247 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 26 0 0 0 0 0 0 0 0 0 0
+node "g4" 0 42.2715 484 261 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 28 0 0 0 0 0 0 0 0 0 0
+node "a4" 9 1825.02 -514 -78 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2415 1060 0 0 0 0 0 0 0 0 0 0
+node "a_4" 0 61.6599 -763 119 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81 36 0 0 0 0 0 0 0 0 0 0
+node "b_4" 0 43.5351 -763 267 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 49 28 0 0 0 0 0 0 0 0 0 0
+node "b4" 9 2022.87 -522 279 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2851 1120 0 0 0 0 0 0 0 0 0 0
+node "c_4" 21 10404.2 898 292 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3233 1250 3665 1476 0 0 0 0 0 0 0 0
+node "p3" 6 3827.7 437 334 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 150 70 1645 668 0 0 0 0 0 0 0 0
+node "m1_794_107#" 13 12894.5 794 107 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26059 4050 300 130 0 0 0 0 0 0 0 0
+node "s_4" 8 7213.42 1959 505 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 140 66 4222 1242 0 0 0 0 0 0 0 0
+node "s4" 0 70.1004 2268 513 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 46 0 0 0 0 0 0 0 0 0 0
+node "s_3" 8 6440.63 1956 650 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 125 60 3205 1126 0 0 0 0 0 0 0 0
+node "s3" 1 132.185 2262 658 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 84 0 0 0 0 0 0 0 0 0 0
+node "a3" 6 4161.59 -518 385 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 950 344 1866 634 0 0 0 0 0 0 0 0
+node "a_3" 0 27.6216 -764 400 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "g3" 0 24.354 480 559 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0 0 0 0 0
+node "g3" 0 50.4948 105 559 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 34 0 0 0 0 0 0 0 0 0 0
+node "b3" 7 4233.2 -517 539 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1060 386 1860 632 0 0 0 0 0 0 0 0
+node "b_3" 0 47.7504 -764 546 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 30 0 0 0 0 0 0 0 0 0 0
+node "c3" 12 2621.13 910 702 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3641 1468 0 0 0 0 0 0 0 0 0 0
+node "a2" 6 3746.41 -515 669 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 385 152 1601 632 0 0 0 0 0 0 0 0
+node "a_2" 0 47.7504 -761 686 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 30 0 0 0 0 0 0 0 0 0 0
+node "s_2" 8 6154 1955 803 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110 54 2837 1084 0 0 0 0 0 0 0 0
+node "s2" 1 122.382 2264 811 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 140 78 0 0 0 0 0 0 0 0 0 0
+node "s_1" 8 5993.38 1960 955 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110 54 2743 1056 0 0 0 0 0 0 0 0
+node "s1" 1 92.9736 2263 963 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 104 60 0 0 0 0 0 0 0 0 0 0
+node "b2" 5 3838.06 -508 773 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 516 200 2107 616 0 0 0 0 0 0 0 0
+node "b_2" 0 51.018 -757 828 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 32 0 0 0 0 0 0 0 0 0 0
+node "g2" 7 2924.54 106 928 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2427 780 605 252 0 0 0 0 0 0 0 0
+node "p2" 6 6510.58 421 939 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 155 72 4346 1114 0 0 0 0 0 0 0 0
+node "m1_693_944#" 16 7368.55 693 944 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3851 1368 2437 890 0 0 0 0 0 0 0 0
+node "m1_n529_948#" 3 3765.29 -529 948 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70 34 2938 626 0 0 0 0 0 0 0 0
+node "a_1" 0 54.9174 -757 964 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66 34 0 0 0 0 0 0 0 0 0 0
+node "c2" 14 9448.57 903 1024 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 349 170 4753 1716 0 0 0 0 0 0 0 0
+node "a1" 5 3489.43 -504 981 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 486 198 1662 566 0 0 0 0 0 0 0 0
+node "m1_397_1108#" 26 5482.15 397 1108 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5439 2542 550 240 0 0 0 0 0 0 0 0
+node "b_1" 0 66.8328 -757 1105 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0 0 0 0 0 0 0
+node "m1_512_1118#" 15 6001.62 512 1118 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6093 1990 1160 386 0 0 0 0 0 0 0 0
+node "C0" 1 70.9494 377 1207 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66 50 0 0 0 0 0 0 0 0 0 0
+node "c1" 13 7250.1 909 1232 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2547 928 2902 1010 0 0 0 0 0 0 0 0
+node "g1" 7 4836.09 99 1119 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2022 510 1962 666 0 0 0 0 0 0 0 0
+node "b1" 6 2914.97 -486 1112 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 509 246 1120 458 0 0 0 0 0 0 0 0
+node "m1_n758_1177#" 10 2780.01 -758 1177 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4182 1456 0 0 0 0 0 0 0 0 0 0
+node "vdd" 21 12745.1 -117 1369 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24156 5104 0 0 0 0 0 0 0 0 0 0
+node "a_859_591#" 18 6464.91 859 591 pdm12c 0 0 25 20 0 0 0 0 0 0 0 0 0 0 3642 1132 3292 746 0 0 0 0 0 0 0 0
+cap "g1" "m1_397_1108#" 240.555
+cap "c_4" "m1_794_107#" 131.45
+cap "m1_693_944#" "c3" 228.163
+cap "m1_512_1118#" "m1_397_1108#" 3694.92
+cap "c2" "m1_397_1108#" 216.585
+cap "c1" "m1_512_1118#" 143.627
+cap "p2" "g2" 224.077
+cap "c3" "c2" 228.163
+cap "m1_693_944#" "c2" 119.871
+cap "c3" "a_859_591#" 177.763
+cap "c3" "m1_794_107#" 131.45
+cap "c1" "m1_397_1108#" 119.871
+cap "m1_512_1118#" "c2" 286.056
+subcap "a_4" -72.2178
+subcap "gnd" -1886.35
+subcap "m1_794_107#" -12389.2
+subcap "b4" -1988.45
+subcap "b4" -1855.6
+subcap "p4" -48.165
+subcap "g4" -51.7485
+cap "g4" "carry_block_0/g3" 17.1825
+cap "p4" "carry_block_0/g3" 17.1825
+cap "carry_block_0/g3" "carry_block_0/p4" 51.5475
+cap "carry_block_0/g3" "g4" 51.5475
+subcap "c_4" -10298.2
+subcap "a3" -4180.31
+subcap "a3" -3518.07
+cap "a3" "pg_block_0/m1_n29_n787#" 96.4692
+cap "a3" "pg_block_0/m1_n29_n787#" -33.4818
+subcap "p3" -3191.94
+cap "carry_block_0/p1" "p3" 96.714
+cap "carry_block_0/g1" "p3" 85.1355
+cap "carry_block_0/c0" "p3" 85.1355
+cap "p3" "carry_block_0/p2" 108.293
+cap "p3" "carry_block_0/g2" 177.022
+cap "m1_794_107#" "sum_block_0/b4" 1.42109e-14
+subcap "c4" -88.9656
+subcap "c4" -118.374
+cap "sum_block_0/vdd" "a_859_591#" 81.4536
+cap "a_859_591#" "sum_block_0/gnd" 135.531
+cap "a_859_591#" "sum_block_0/copyxor_3/vdd" 31.1238
+cap "a_859_591#" "sum_block_0/copyxor_2/b" 107.219
+cap "sum_block_0/a3" "sum_block_0/copyxor_2/b" 230.933
+cap "s_4" "ff2_0/vdd" 119.871
+subcap "s_4" -6224.99
+cap "ff2_0/layff_3/d" "ff2_0/clk" 96.714
+subcap "s4" -4.008
+subcap "b3" -4255.49
+subcap "b3" -3627.15
+cap "b3" "pg_block_0/m1_n29_n787#" 96.4692
+cap "pg_block_0/m1_n29_n787#" "b3" -33.4818
+cap "carry_block_0/val_c3_0/g3" "carry_block_0/val_c3_0/p3" 89.685
+subcap "a_859_591#" -5585.3
+cap "carry_block_0/val_c3_0/gnd" "a_859_591#" 195.845
+cap "carry_block_0/vdd" "a_859_591#" 16.6185
+cap "carry_block_0/val_c3_0/n" "a_859_591#" 119.871
+cap "carry_block_0/vdd" "a_859_591#" 21.114
+cap "sum_block_0/vdd" "c2" 69.6234
+cap "sum_block_0/vdd" "sum_block_0/b3" 10.6635
+cap "sum_block_0/b3" "sum_block_0/gnd" 121.343
+subcap "s4" -100.111
+subcap "a2" -3813.09
+subcap "a2" -3110.32
+cap "pg_block_0/m1_n29_n787#" "a2" 84.591
+cap "pg_block_0/a2" "pg_block_0/m1_n29_n787#" -27.243
+subcap "c3" -2554.3
+cap "sum_block_0/vdd" "c1" 72.078
+cap "m1_693_944#" "sum_block_0/vdd" 69.6234
+cap "m1_693_944#" "sum_block_0/copyxor_1/b" 115.466
+cap "sum_block_0/gnd" "m1_693_944#" 121.343
+cap "sum_block_0/b2" "sum_block_0/vdd" 17.5365
+cap "m1_693_944#" "sum_block_0/vdd" 607.633
+cap "sum_block_0/gnd" "sum_block_0/b2" 118.733
+cap "sum_block_0/copyxor_2/vdd" "sum_block_0/a2" 48.111
+cap "sum_block_0/copyxor_1/b" "sum_block_0/a2" 222.685
+cap "ff2_0/vdd" "s_3" 119.871
+subcap "s_3" -5475.08
+cap "ff2_0/clk" "ff2_0/layff_2/d" 96.714
+subcap "s3" -46.4868
+subcap "b_2" -62.3904
+subcap "b2" -3248.65
+cap "b2" "pg_block_0/m1_n29_n787#" 98.2674
+cap "pg_block_0/b2" "pg_block_0/m1_n29_n787#" 25.2738
+cap "g2" "carry_block_0/c0" 85.1355
+cap "s_2" "ff2_0/vdd" 119.871
+subcap "s_2" -5195.39
+cap "ff2_0/layff_1/d" "ff2_0/clk" 96.714
+subcap "s2" -43.2192
+subcap "g2" -2516.91
+cap "sum_block_0/vdd" "m1_397_1108#" 64.5834
+cap "m1_512_1118#" "sum_block_0/vdd" 76.4136
+cap "sum_block_0/gnd" "sum_block_0/b1" 135.531
+cap "m1_397_1108#" "sum_block_0/copyxor_1/vdd" 1163.16
+cap "m1_397_1108#" "sum_block_0/b1" 137.46
+cap "sum_block_0/gnd" "m1_397_1108#" 121.343
+cap "sum_block_0/b1" "sum_block_0/copyxor_1/vdd" 55.3734
+cap "sum_block_0/copyxor_0/b" "sum_block_0/a1" 426.126
+cap "sum_block_0/copyxor_1/vdd" "sum_block_0/a1" 82.476
+subcap "m1_n529_948#" -3568.68
+subcap "m1_n529_948#" -3186.12
+subcap "a1" -3317.01
+subcap "g2" -2799.76
+subcap "p2" -5764.05
+cap "carry_block_0/p2" "carry_block_0/c0" 96.1146
+cap "carry_block_0/p2" "carry_block_0/p1" 108.293
+subcap "m1_693_944#" -6604.45
+cap "carry_block_0/val_c2_0/c2_bar" "carry_block_0/val_c2_0/p2" 16.6185
+cap "carry_block_0/val_c2_0/g2" "carry_block_0/val_c2_0/p2" 89.685
+cap "m1_693_944#" "carry_block_0/val_c2_0/gnd" 107.993
+cap "carry_block_0/vdd" "m1_693_944#" 27.0585
+cap "m1_693_944#" "carry_block_0/val_c2_0/c2_bar" 21.114
+subcap "c2" -9474.48
+cap "m1_693_944#" "carry_block_0/vdd" 70.824
+cap "s_1" "ff2_0/vdd" 131.749
+subcap "s_1" -4982.87
+cap "ff2_0/clk" "ff2_0/layff_0/d" 96.714
+subcap "s1" -10.5432
+subcap "b1" -2838.33
+cap "pg_block_0/vdd" "a1" 137.544
+cap "pg_block_0/vdd" "pg_block_0/a1" 17.6734
+subcap "p1" -3430.11
+subcap "g1" -4663.22
+subcap "m1_397_1108#" -4907.06
+cap "g1" "carry_block_0/c0" 171.47
+cap "carry_block_0/c0" "p1" 200.885
+cap "g1" "p1" 59.9355
+subcap "m1_512_1118#" -5849.98
+cap "carry_block_0/val_c2_0/vdd" "m1_397_1108#" 519.599
+cap "carry_block_0/val_c2_0/vdd" "m1_397_1108#" 824.76
+cap "carry_block_0/val_c1_0/gnd" "m1_512_1118#" 213.063
+cap "m1_397_1108#" "carry_block_0/m1_118_17#" 85.1355
+cap "carry_block_0/val_c2_0/vdd" "m1_397_1108#" 173.2
+cap "m1_512_1118#" "carry_block_0/m1_118_17#" 96.714
+cap "carry_block_0/vdd" "m1_397_1108#" 5.9391
+cap "carry_block_0/vdd" "m1_512_1118#" 11.2788
+subcap "c2" -9310.59
+cap "carry_block_0/vdd" "m1_512_1118#" 14.8752
+cap "carry_block_0/vdd" "m1_397_1108#" 8.6364
+subcap "m1_n758_1177#" -2404.83
+cap "b1" "pg_block_0/vdd" 123.02
+cap "pg_block_0/b1" "pg_block_0/vdd" 14.7279
+cap "carry_block_0/c0" "carry_block_0/g1" 63.1773
+cap "carry_block_0/g1" "carry_block_0/p1" 191.385
+subcap "m1_512_1118#" -5387.9
+cap "m1_512_1118#" "carry_block_0/val_c1_0/gnd" 511.351
+cap "m1_512_1118#" "carry_block_0/m1_118_17#" 61.9785
+cap "carry_block_0/vdd" "m1_512_1118#" -4.7403
+cap "carry_block_0/vdd" "m1_512_1118#" -3.8412
+subcap "c1" -7172
+subcap "vdd" -12380.7
+subcap "vdd" -12593.2
+merge "ff2_0/layff_4/d" "carry_block_0/c4" -341.573 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -412 -211 0 0 0 0 0 0 0 0 0 0
+merge "carry_block_0/c4" "c_4"
+merge "ff2_0/m1_253_43#" "s1" -114.06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -76 0 0 0 0 0 0 0 0 0 0
+merge "pg_block_0/pg_0/vdd" "pg_block_0/vdd" -71.4135 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 -76 0 0 0 0 0 0 0 0 0 0
+merge "pg_block_0/vdd" "ff1_0/vdd"
+merge "ff1_0/vdd" "m1_n758_1177#"
+merge "m1_n758_1177#" "carry_block_0/val_c1_0/vdd"
+merge "carry_block_0/val_c1_0/vdd" "ff2_0/vdd"
+merge "ff2_0/vdd" "sum_block_0/vdd"
+merge "sum_block_0/vdd" "vdd"
+merge "ff1_0/layff_7/d" "a_4" -18.036 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "pg_block_0/gnd" "ff1_0/layff_1/inv_0/gnd" -224.034 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -140 -44 0 -16 0 0 0 0 0 0 0 0
+merge "ff1_0/layff_1/inv_0/gnd" "m1_n529_948#"
+merge "ff1_0/layff_2/q" "pg_block_0/b2" -14.9598 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0 0 0 0 0 0 0 0 0
+merge "pg_block_0/b2" "b2"
+merge "ff1_0/layff_5/d" "a_3" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "carry_block_0/val_c3_0/p3" "sum_block_0/a3" -367.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -221 -115 0 0 0 0 0 0 0 0 0 0
+merge "sum_block_0/a3" "a_859_591#"
+merge "ff1_0/clk" "clk" -119.457 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -22 0 0 0 0 0 0 0 0
+merge "sum_block_0/gnd" "ff2_0/layff_4/gnd" -296.488 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1689 -144 -305 -137 0 0 0 0 0 0 0 0
+merge "ff2_0/layff_4/gnd" "carry_block_0/val_c4_0/gnd"
+merge "carry_block_0/val_c4_0/gnd" "pg_block_0/pg_3/and_0/gnd"
+merge "pg_block_0/pg_3/and_0/gnd" "gnd"
+merge "gnd" "m1_794_107#"
+merge "ff2_0/layff_3/d" "sum_block_0/s4" -386.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -22 -105 -57 0 0 0 0 0 0 0 0
+merge "sum_block_0/s4" "s_4"
+merge "ff2_0/layff_0/d" "sum_block_0/s1" -392.281 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 -115 -56 0 0 0 0 0 0 0 0
+merge "sum_block_0/s1" "s_1"
+merge "pg_block_0/b1" "ff1_0/layff_0/q" -787.959 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 -20 -310 -139 0 0 0 0 0 0 0 0
+merge "ff1_0/layff_0/q" "b1"
+merge "ff1_0/layff_3/d" "a_2" -14.028 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "carry_block_0/p1" "pg_block_0/p1" -1715.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1711 -701 -280 -87 0 0 0 0 0 0 0 0
+merge "pg_block_0/p1" "p1"
+merge "p1" "sum_block_0/b1"
+merge "sum_block_0/b1" "m1_512_1118#"
+merge "ff2_0/layff_1/d" "sum_block_0/s2" -377.591 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -16 -100 -57 0 0 0 0 0 0 0 0
+merge "sum_block_0/s2" "s_2"
+merge "ff2_0/m1_257_n407#" "s4" -56.5464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 -64 0 0 0 0 0 0 0 0 0 0
+merge "ff2_0/layff_2/d" "sum_block_0/s3" -402.043 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -115 -61 0 0 0 0 0 0 0 0
+merge "sum_block_0/s3" "s_3"
+merge "carry_block_0/p2" "pg_block_0/p2" -1190.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 -644 -201 0 0 0 0 0 0 0 0
+merge "pg_block_0/p2" "p2"
+merge "ff2_0/m1_253_n109#" "s2" -48.876 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 -74 0 0 0 0 0 0 0 0 0 0
+merge "carry_block_0/p3" "pg_block_0/p3" -797.29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -150 -70 -270 -128 0 0 0 0 0 0 0 0
+merge "pg_block_0/p3" "p3"
+merge "ff2_0/m1_251_n262#" "s3" -114.06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -120 -76 0 0 0 0 0 0 0 0 0 0
+merge "sum_block_0/a4" "carry_block_0/p4" -153.777 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -90 -73 0 -10 0 0 0 0 0 0 0 0
+merge "carry_block_0/p4" "pg_block_0/p4"
+merge "pg_block_0/p4" "p4"
+merge "ff1_0/layff_1/d" "a_1" -15.9234 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -14 0 0 0 0 0 0 0 0 0 0
+merge "carry_block_0/c1" "sum_block_0/b2" 17.7345 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "sum_block_0/b2" "c1"
+merge "carry_block_0/c0" "sum_block_0/a1" -11.9154 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0 0 0 0 0 0 0
+merge "sum_block_0/a1" "m1_397_1108#"
+merge "m1_397_1108#" "C0"
+merge "ff1_0/layff_7/q" "pg_block_0/a4" -60.1992 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 -108 0 0 0 0 0 0 0 0 0 0
+merge "pg_block_0/a4" "a4"
+merge "carry_block_0/c2" "sum_block_0/b3" 17.1027 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2 -18 0 0 0 0 0 0 0 0 0 0
+merge "sum_block_0/b3" "c2"
+merge "carry_block_0/val_c2_0/p2" "sum_block_0/a2" -1278.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -231 -134 -440 -193 0 0 0 0 0 0 0 0
+merge "sum_block_0/a2" "m1_693_944#"
+merge "carry_block_0/c3" "sum_block_0/b4" -159.318 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -203 -95 0 0 0 0 0 0 0 0 0 0
+merge "sum_block_0/b4" "c3"
+merge "ff1_0/layff_0/d" "b_1" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "pg_block_0/g1" "carry_block_0/g1" -385.984 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -153 -76 -114 -44 0 0 0 0 0 0 0 0
+merge "carry_block_0/g1" "g1"
+merge "ff1_0/layff_2/d" "b_2" -15.9234 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -14 0 0 0 0 0 0 0 0 0 0
+merge "ff1_0/layff_5/q" "pg_block_0/a3" -1271.56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -423 -180 -492 -176 0 0 0 0 0 0 0 0
+merge "pg_block_0/a3" "a3"
+merge "ff1_0/layff_4/d" "b_3" -14.028 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "pg_block_0/g2" "carry_block_0/g2" -568.651 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -225 -100 0 0 0 0 0 0 0 0
+merge "carry_block_0/g2" "g2"
+merge "ff1_0/layff_6/d" "b_4" -18.2433 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7 -16 0 0 0 0 0 0 0 0 0 0
+merge "carry_block_0/g3" "pg_block_0/g3" -11.5008 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -14 0 0 0 0 0 0 0 0 0 0
+merge "pg_block_0/g3" "g3"
+merge "carry_block_0/g4" "pg_block_0/g4" -85.086 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -60 -66 0 0 0 0 0 0 0 0 0 0
+merge "pg_block_0/g4" "g4"
+merge "pg_block_0/a2" "ff1_0/layff_3/q" -785.903 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -32 -335 -139 0 0 0 0 0 0 0 0
+merge "ff1_0/layff_3/q" "ff1_0/layff_3/inv_0/Y"
+merge "ff1_0/layff_3/inv_0/Y" "a2"
+merge "pg_block_0/a1" "ff1_0/layff_1/q" -1044.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -94 -64 -444 -176 0 0 0 0 0 0 0 0
+merge "ff1_0/layff_1/q" "a1"
+merge "ff1_0/layff_4/q" "pg_block_0/b3" -1475.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -746 -282 -492 -176 0 0 0 0 0 0 0 0
+merge "pg_block_0/b3" "b3"
+merge "ff1_0/layff_6/q" "pg_block_0/b4" -56.571 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -47 0 0 0 0 0 0 0 0 0 0
+merge "pg_block_0/b4" "b4"
+merge "ff2_0/m1_263_n547#" "c4" -76.3296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -56 0 0 0 0 0 0 0 0 0 0

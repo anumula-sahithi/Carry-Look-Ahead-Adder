@@ -1,0 +1,83 @@
+magic
+tech scmos
+timestamp 1732059066
+<< metal1 >>
+rect -106 106 26 111
+rect -106 -42 -100 106
+rect -30 51 4 55
+rect -106 -47 -77 -42
+rect -106 -195 -100 -47
+rect -30 -97 -26 51
+rect 253 43 291 47
+rect 230 10 278 15
+rect -30 -101 6 -97
+rect -106 -200 -73 -195
+rect -106 -340 -100 -200
+rect -30 -250 -26 -101
+rect 253 -109 291 -105
+rect 231 -142 278 -137
+rect -30 -254 5 -250
+rect -106 -345 -74 -340
+rect -106 -346 -97 -345
+rect -106 -482 -100 -346
+rect -30 -394 -26 -254
+rect 251 -262 289 -258
+rect 234 -295 278 -290
+rect -30 -395 10 -394
+rect -30 -399 13 -395
+rect -30 -441 -26 -399
+rect 257 -407 295 -403
+rect 237 -440 278 -435
+rect -30 -447 -25 -441
+rect -106 -486 47 -482
+rect -25 -539 16 -533
+rect 263 -547 301 -543
+rect 245 -580 278 -575
+<< m2contact >>
+rect -77 -47 -72 -42
+rect 278 10 283 15
+rect 13 -47 18 -42
+rect -73 -200 -68 -195
+rect 278 -142 283 -137
+rect 17 -200 22 -195
+rect -74 -345 -69 -340
+rect 278 -295 283 -290
+rect 20 -345 25 -340
+rect 278 -440 283 -435
+rect -30 -452 -25 -447
+rect -30 -539 -25 -533
+rect 278 -580 283 -575
+<< metal2 >>
+rect -72 -47 13 -42
+rect 278 -137 283 10
+rect -68 -200 17 -195
+rect 278 -290 283 -142
+rect -69 -345 20 -340
+rect 278 -435 283 -295
+rect -30 -533 -25 -452
+rect 278 -575 283 -440
+use layff  layff_4
+timestamp 1731962275
+transform 1 0 41 0 1 -511
+box -30 -79 223 32
+use layff  layff_3
+timestamp 1731962275
+transform 1 0 37 0 1 -371
+box -30 -79 223 32
+use layff  layff_2
+timestamp 1731962275
+transform 1 0 34 0 1 -226
+box -30 -79 223 32
+use layff  layff_1
+timestamp 1731962275
+transform 1 0 30 0 1 -73
+box -30 -79 223 32
+use layff  layff_0
+timestamp 1731962275
+transform 1 0 30 0 1 79
+box -30 -79 223 32
+<< labels >>
+rlabel metal1 -103 95 -102 97 3 vdd
+rlabel metal1 -27 37 -26 39 1 clk
+rlabel metal1 260 13 261 15 1 gnd
+<< end >>

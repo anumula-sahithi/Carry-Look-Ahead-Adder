@@ -1,0 +1,68 @@
+magic
+tech scmos
+timestamp 1731961830
+<< metal1 >>
+rect -34 154 22 160
+rect -34 -10 -29 154
+rect 12 28 18 36
+rect 155 11 159 20
+rect -34 -17 20 -10
+rect -34 -186 -30 -17
+rect 9 -146 13 -133
+rect 162 -158 166 -149
+rect -34 -194 21 -186
+rect -34 -368 -30 -194
+rect 12 -321 16 -308
+rect 150 -334 154 -325
+rect -34 -374 22 -368
+rect -15 -491 -2 -487
+rect 154 -519 159 -507
+<< m2contact >>
+rect 22 76 27 81
+rect 18 -90 23 -85
+rect 19 -267 24 -262
+rect 20 -449 29 -444
+<< metal2 >>
+rect -15 76 22 81
+rect -15 -85 -10 76
+rect 189 40 197 45
+rect -15 -90 18 -85
+rect -15 -262 -10 -90
+rect 185 -129 191 -124
+rect -15 -267 19 -262
+rect -15 -444 -10 -267
+rect 186 -305 195 -300
+rect -15 -449 20 -444
+rect 187 -487 196 -482
+use copyxor  copyxor_0
+timestamp 1731941149
+transform 1 0 43 0 1 87
+box -43 -87 146 73
+use copyxor  copyxor_1
+timestamp 1731941149
+transform 1 0 39 0 1 -82
+box -43 -87 146 73
+use copyxor  copyxor_2
+timestamp 1731941149
+transform 1 0 40 0 1 -258
+box -43 -87 146 73
+use copyxor  copyxor_3
+timestamp 1731941149
+transform 1 0 41 0 1 -440
+box -43 -87 146 73
+<< labels >>
+rlabel metal1 -31 158 -31 158 4 vdd
+rlabel metal2 -14 -82 -14 -82 1 gnd
+rlabel metal2 189 -127 189 -127 7 s2
+rlabel metal2 192 43 192 43 7 s1
+rlabel metal2 190 -302 190 -302 1 s3
+rlabel metal2 193 -485 193 -485 7 s4
+rlabel metal1 -4 -488 -4 -488 1 b4
+rlabel metal1 157 -513 157 -513 1 a4
+rlabel metal1 152 -330 152 -330 1 a3
+rlabel metal1 14 -315 14 -315 1 b3
+rlabel metal1 11 -142 11 -142 1 b2
+rlabel metal1 165 -154 165 -154 1 a2
+rlabel metal1 156 14 156 14 1 a1
+rlabel metal1 16 32 16 32 1 b1
+<< end >>

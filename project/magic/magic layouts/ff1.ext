@@ -1,0 +1,52 @@
+timestamp 1732052795
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use layff layff_0 1 0 1 0 1 80
+use layff layff_1 1 0 -17 0 1 -51
+use layff layff_2 1 0 -17 0 1 -188
+use layff layff_3 1 0 -21 0 1 -331
+use layff layff_4 1 0 -24 0 1 -471
+use layff layff_5 1 0 -24 0 1 -619
+use layff layff_6 1 0 -24 0 1 -752
+use layff layff_7 1 0 -23 0 1 -897
+node "m1_n83_n780#" 1 142.609 -83 -780 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 185 84 0 0 0 0 0 0 0 0 0 0
+node "gnd" 16 13411.2 -41 -831 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 343 210 8540 2454 0 0 0 0 0 0 0 0
+node "clk" 22 11530.1 -83 -925 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1710 734 4910 1974 0 0 0 0 0 0 0 0
+node "vdd" 18 6590.55 -112 -871 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10884 3146 0 0 0 0 0 0 0 0 0 0
+cap "gnd" "clk" 813.053
+cap "m1_n83_n780#" "clk" 83.0925
+cap "gnd" "vdd" 1078.46
+cap "m1_n83_n780#" "gnd" 131.45
+cap "clk" "vdd" 908.568
+subcap "gnd" -11957.3
+cap "layff_6/gnd" "layff_6/clk" -20.16
+cap "layff_5/gnd" "layff_6/clk" -20.16
+cap "gnd" "layff_5/clk" 1.42109e-14
+cap "layff_3/clk" "gnd" -7.10543e-15
+merge "layff_0/gnd" "layff_1/gnd" -11378 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -421 -272 -4226 -2062 0 0 0 0 0 0 0 0
+merge "layff_1/gnd" "layff_2/gnd"
+merge "layff_2/gnd" "layff_3/gnd"
+merge "layff_3/gnd" "layff_4/gnd"
+merge "layff_4/gnd" "layff_5/gnd"
+merge "layff_5/gnd" "layff_6/gnd"
+merge "layff_6/gnd" "layff_7/gnd"
+merge "layff_7/gnd" "gnd"
+merge "layff_0/vdd" "layff_1/vdd" -1470.36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1950 -895 0 0 0 0 0 0 0 0 0 0
+merge "layff_1/vdd" "layff_2/vdd"
+merge "layff_2/vdd" "layff_3/vdd"
+merge "layff_3/vdd" "layff_4/vdd"
+merge "layff_4/vdd" "layff_5/vdd"
+merge "layff_5/vdd" "layff_6/vdd"
+merge "layff_6/vdd" "layff_7/vdd"
+merge "layff_7/vdd" "vdd"
+merge "layff_0/clk" "layff_1/clk" -253.471 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -168 -200 0 0 0 0 0 0 0 0 0 0
+merge "layff_1/clk" "layff_2/clk"
+merge "layff_2/clk" "layff_3/clk"
+merge "layff_3/clk" "layff_4/clk"
+merge "layff_4/clk" "layff_5/clk"
+merge "layff_5/clk" "layff_7/clk"
+merge "layff_7/clk" "clk"
+merge "layff_6/clk" "m1_n83_n780#" -42.1728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0 0 0 0 0 0 0 0 0

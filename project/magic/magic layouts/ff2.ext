@@ -1,0 +1,46 @@
+timestamp 1732059066
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use layff layff_0 1 0 30 0 1 79
+use layff layff_1 1 0 30 0 1 -73
+use layff layff_2 1 0 34 0 1 -226
+use layff layff_3 1 0 37 0 1 -371
+use layff layff_4 1 0 41 0 1 -511
+node "m1_263_n547#" 1 132.185 263 -547 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 84 0 0 0 0 0 0 0 0 0 0
+node "m1_257_n407#" 1 132.185 257 -407 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 84 0 0 0 0 0 0 0 0 0 0
+node "m1_251_n262#" 1 132.185 251 -262 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 84 0 0 0 0 0 0 0 0 0 0
+node "m1_253_n109#" 1 132.185 253 -109 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 84 0 0 0 0 0 0 0 0 0 0
+node "gnd" 14 7295.74 230 10 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1190 526 2975 1200 0 0 0 0 0 0 0 0
+node "m1_253_43#" 1 132.185 253 43 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 84 0 0 0 0 0 0 0 0 0 0
+node "clk" 15 3277.01 -30 -539 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2879 1392 460 194 0 0 0 0 0 0 0 0
+node "vdd" 20 6842.93 -106 -486 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5333 1994 1445 608 0 0 0 0 0 0 0 0
+cap "m1_251_n262#" "gnd" 96.714
+cap "m1_253_n109#" "gnd" 96.714
+cap "m1_257_n407#" "gnd" 96.714
+cap "m1_263_n547#" "gnd" 96.714
+cap "clk" "vdd" 386.856
+subcap "gnd" -7276.77
+subcap "gnd" -7106.66
+merge "layff_1/q" "m1_253_n109#" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "layff_0/vdd" "layff_1/vdd" -1853.74 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -989 -556 -225 -192 0 0 0 0 0 0 0 0
+merge "layff_1/vdd" "layff_2/vdd"
+merge "layff_2/vdd" "layff_3/vdd"
+merge "layff_3/vdd" "layff_4/vdd"
+merge "layff_4/vdd" "vdd"
+merge "layff_0/clk" "layff_1/clk" -220.153 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -145 -174 0 0 0 0 0 0 0 0 0 0
+merge "layff_1/clk" "layff_2/clk"
+merge "layff_2/clk" "layff_3/clk"
+merge "layff_3/clk" "layff_4/clk"
+merge "layff_4/clk" "clk"
+merge "layff_0/inv_0/gnd" "layff_1/inv_0/gnd" -153.903 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -170 -100 0 0 0 0 0 0 0 0 0 0
+merge "layff_1/inv_0/gnd" "layff_2/inv_0/gnd"
+merge "layff_2/inv_0/gnd" "layff_3/inv_0/gnd"
+merge "layff_3/inv_0/gnd" "layff_4/inv_0/gnd"
+merge "layff_4/inv_0/gnd" "gnd"
+merge "layff_3/q" "m1_257_n407#" -17.8188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0 0 0 0 0 0 0
+merge "layff_4/q" "m1_263_n547#" -11.2836 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0 0 0 0 0 0 0
+merge "layff_2/q" "m1_251_n262#" -27.6216 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0 0 0 0 0 0 0
+merge "layff_0/q" "m1_253_43#" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
