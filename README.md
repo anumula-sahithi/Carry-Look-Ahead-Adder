@@ -6,7 +6,9 @@ This project involves the design and implementation of a high-speed 4-bit Carry 
 
 Key Features:
 
-Modular Design: Includes blocks for propagate/generate signal computation, carry look-ahead logic, and sum generation.
+Modular Design: 
+Includes blocks for propagate/generate signal computation, carry look-ahead logic, and sum generation.
+
 Synchronous Operation: Ensures inputs are latched before the rising clock edge, with outputs computed and available at the next rising clock edge.
 High-Speed Performance: Reduces carry propagation delays, enabling faster binary addition.
 Power Efficiency: Optimized design for low power consumption while maintaining accuracy.
